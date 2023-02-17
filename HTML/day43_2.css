@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vw;
+    flex-direction: row;
+    margin: 0
+
+}
+.navclass{
+    flex: 1;
+    background-color: #D7E8D4;
+}
+
+.divclass{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.mainclass{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainclass > article{
+    flex: 4;
+    min-height: 60vh;
+    
+}
+
+header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+
+  header, footer, article, nav {
+    padding: 1em;
+  }
